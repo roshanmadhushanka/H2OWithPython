@@ -1,0 +1,51 @@
+Checking whether there is an H2O instance running at http://127.0.0.1:54321. connected.
+Parse progress: |█████████████████████████████████████████████████████████████████████████████| 100%
+Parse progress: |█████████████████████████████████████████████████████████████████████████████| 100%
+No model trained yet
+deeplearning Model Build progress: |██████████████████████████████████████████████████████████| 100%
+
+ModelMetricsRegression: deeplearning
+** Reported on test data. **
+
+MSE: 661.022845487
+RMSE: 25.7103645538
+MAE: 18.5134923267
+RMSLE: 0.413647469742
+Mean Residual Deviance: 661.022845487
+deeplearning prediction progress: |███████████████████████████████████████████████████████████| 100%
+Rows:100 Cols:1
+Chunk compression summary: 
+chunk_type    chunk_name    count    count_percentage    size    size_percentage
+------------  ------------  -------  ------------------  ------  -----------------
+C8D           64-bit Reals  9        100                 1.4 KB  100
+Frame distribution summary: 
+                    size    number_of_rows    number_of_chunks_per_column    number_of_chunks
+------------------  ------  ----------------  -----------------------------  ------------------
+10.100.4.196:54321  1.4 KB  100               9                              9
+mean                1.4 KB  100               9                              9
+min                 1.4 KB  100               9                              9
+max                 1.4 KB  100               9                              9
+stddev              0  B    0                 0                              0
+total               1.4 KB  100               9                              9
+
+
+         predict
+-------  ---------------
+type     real
+mins     -0.224749918456
+mean     70.1198344094
+maxs     159.641568016
+sigma    35.4954546391
+zeros    0
+missing  0
+0        90.7345964481
+1        90.5291400634
+2        89.3815707202
+3        105.991568727
+4        116.494580916
+5        108.579436531
+6        96.5879826768
+7        159.641568016
+8        87.1971896255
+9        62.6702924147
+H2O session _sid_8778 closed.
